@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from usuarios.models import *
+
+admin.site.register(Usuarios)
+admin.site.register(Endereco)
+
